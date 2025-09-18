@@ -40,7 +40,7 @@ venv/ # Virtual environment (ignored in git)
 ---
 
 ## 📸 Screenshots
-![Home Page](images/)
+![Home Page](images/Screenshot 2025-09-18 165150.png)
 
 ---
 
