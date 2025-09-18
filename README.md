@@ -23,15 +23,16 @@ Built using **TensorFlow, Keras, and Streamlit**.
 ## 📂 Project Structure
 
 Plant_Disease_Prediction/
-│── main.py # Streamlit app
-│── requirements.txt # Dependencies
-│── trained_model.h5/.keras # CNN model
-│── README.md # Project description
-│── LICENSE # MIT License
-│── .gitignore # Ignore unwanted files
-│── images/ # Screenshots
-│── notebooks/ # Training notebooks
-│── venv/ # Virtual environment (ignored in git)
+
+main.py # Streamlit app
+requirements.txt # Dependencies
+trained_model.h5/.keras # CNN model
+README.md # Project description
+LICENSE # MIT License
+.gitignore # Ignore unwanted files
+images/ # Screenshots
+notebooks/ # Training notebooks
+venv/ # Virtual environment (ignored in git)
 
 ---
 
@@ -39,7 +40,7 @@ Plant_Disease_Prediction/
 ---
 
 ## 📸 Screenshots
-![Home Page](images/home_page.jpeg)
+![Home Page](images/)
 
 ---
 
@@ -50,24 +51,6 @@ Plant_Disease_Prediction/
 
 ---
 
-## ⚙️ How to Run
-```bash
-# Clone the repo
-git clone https://github.com/Ayush-Raghuwanshi-Dev/Plant_Disease_Prediction.git
-cd Plant_Disease_Prediction
-
-# Create virtual environment
-python -m venv venv
-venv\Scripts\activate      # (Windows)
-source venv/bin/activate   # (Linux/Mac)
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the app
-streamlit run main.py
-
-----
 
 🔮 Future Scope
 
@@ -93,5 +76,25 @@ Ayush Raghuwanshi
 
 Special thanks to SPOTLESS TECH 🎥
 for guidance and tutorials that inspired this project.
+
+
+## ⚙️ How to Run
+```bash
+# Clone the repo
+git clone https://github.com/Ayush-Raghuwanshi-Dev/Plant_Disease_Prediction.git
+cd Plant_Disease_Prediction
+
+# Create virtual environment
+python -m venv venv
+venv\Scripts\activate      # (Windows)
+source venv/bin/activate   # (Linux/Mac)
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the app
+streamlit run main.py
+
+----
 
 -----
