@@ -1,0 +1,17 @@
+# Ignore virtual environment
+venv/
+
+# Ignore dataset and large files
+*.zip
+*.rar
+*.tar
+*.tar.gz
+
+# Ignore python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
